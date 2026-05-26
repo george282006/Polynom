@@ -1,6 +1,10 @@
 add_executable(test_main
     test_main.cpp
         test_polynom.cpp
+        test_unorderedtab.cpp
+        test_avltree.cpp
+        test_hashopenadd.cpp
+        test_RedBlackTree.cpp
 )
 
 target_include_directories(test_main PRIVATE
